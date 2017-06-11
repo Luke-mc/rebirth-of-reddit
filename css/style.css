@@ -1,0 +1,60 @@
+body{
+  background: url("/assets/bg.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+header {
+  background-color: white;
+  display:flex;
+  justify-content: center;
+  height:7vh;
+}
+
+h1{
+margin:0;
+color: gray;
+justify-content: center;
+background-color: #2b2e33;
+padding-top:2vh;
+font-size:2.5vh;
+display: flex;
+
+}
+
+
+#underLogo{
+  background-color: #2b2e33;
+  height:8vh;
+  width:auto;
+}
+
+.postBlock{
+  background-color: blue;
+}
+
+img{
+display: flex;
+}
+
+#logo1{
+  position: absolute;
+
+}
+
+#container{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+
+#footer{
+  background-color: gray;
+}
+
+/*@media screen and(min-width: 1000px){
+  body{
+    background-color: white;
+  }
+}*/
